@@ -1,0 +1,68 @@
+.main-content{
+	width: 90%;
+}
+
+.nbar{
+	border-right: 1px solid #d1d0cd;
+}
+
+.nbar span{
+	font-size: 1.5rem;
+}
+
+.h-star{
+	display: inline-block;
+	
+} 
+
+.bt-search-round {
+border-radius: 2rem;
+border: none;
+background: #d1d0cd;
+}
+
+.Tweet-bnt{
+	border-radius: 2rem;
+	border: none;
+	width: 15rem;
+}
+
+.second-content{
+	width: 90%;
+}
+
+.sidenav-item{
+	list-style: none;
+}
+.sideIcon{
+	font-size: 1.5rem;
+}
+.sidenav-item li a{
+	color: black;
+	text-decoration: none;
+}
+.whatHappening{
+	border: 1px solid #d1d0cd;	
+}
+
+.profile-img-middle {
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+.tf-whathapening{
+	
+}
+.middle-Tweet-bnt{
+	list-style: none;
+}
+.middle-Tweet-bnt button{
+	border-radius: 2rem;
+	border: none;
+	width: 7rem; 
+}
+.TrendsForYou{
+	background-color: #d1d0cd;
+}

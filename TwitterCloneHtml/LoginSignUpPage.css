@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+     background-color: black!important;	 
+}
+.Twitter .main_content .main_logo img{
+	width: 100%;
+	height: 85vh;	
+}
+.Twitter .main_content .second_logo .MyContainer{
+    max-width: 400px;
+}
+.Twitter .main_content .second_logo .MyContainer h2{
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 25px;
+}
+.Twitter .main_content .second_logo .MyContainer p{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.Twitter .main_content .second_logo .MyContainer .Buttons_group a{
+    display: block;
+    border: 1px solid #71C9F8;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+    color: #1DA1F2;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.Twitter .main_content .second_logo .MyContainer .Buttons_group a:nth-child(1){
+    background: #1DA1F2;
+    color: white;
+}
+
+.Twitter .main_content .second_logo .MyContainer .Buttons_group a:nth-child(1):hover{
+    background: #71C9F8;
+    transition: 0.2s all ease-in;
+}

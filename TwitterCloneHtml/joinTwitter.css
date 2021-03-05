@@ -1,0 +1,16 @@
+.main-item{
+	height: 100px;
+}
+.Jicon-twitter1{
+	font-size: 16rem;
+	position: absolute;
+	bottom: 80px;
+	left: 200px;
+}
+.Jicon-twitter2{
+	font-size: 3rem;
+	list-style: none;
+}
+.second-content ul{
+	list-style: none;
+}
