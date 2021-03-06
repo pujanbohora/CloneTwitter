@@ -1,0 +1,31 @@
+body{
+	padding-top: 5vh;
+	background-color: rgb(47 51 54) !important;	
+}
+.Twitter .main_content .MyContainer form .small_bird i{
+	color: #c3c6c9;
+	font-size: 2.2rem;
+	margin-bottom: 40px;
+}
+.Twitter .main_content .MyContainer .second_content h4{
+	font-size: 2.3rem;
+	margin-bottom: 30px; 
+}
+.Twitter .main_content .MyContainer .second_content input{
+	border-color: rgb(110 118 125);
+}
+.Twitter .main_content .MyContainer .But_log{
+	border-radius: 25px;
+	background-color: rgb(26 145 218);
+	color: rgb(217 217 217);
+}
+.Twitter .main_content .MyContainer .errorButton a:hover{
+	color: #007bff;
+}
+.Twitter .main_content .MyContainer .errorButton {
+	margin: 15px;
+}
+.form-container{
+	border-radius: 10px;
+	padding: 10px;
+}
