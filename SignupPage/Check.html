@@ -1,0 +1,26 @@
+<html>
+<head></head>
+<body>
+
+
+	<select class="form-control MDY_select" id="inputGroupSelect01">
+		<option value="">Month</option>
+	</select>
+	
+	<script>
+
+	var month_list=["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+	month_list.forEach(monthLoop);
+	
+	function monthLoop(item, index)
+	{
+		document.getElementById('inputGroupSelect01').innerHTML+=
+		"<option value='"+item+"'>"+item+"</option>"
+	}
+	
+	
+	
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+#exampleModal .half_pg_box .only_content_box{
+	background-color: black !important;	
+}
+#exampleModal .half_pg_box .only_content_box{
+	margin-top: 8vh;
+	border-radius: 10px;
+}
+#exampleModal .half_pg_box .only_content_box .head_part i{
+	text-align: center;
+	font-size: 1.5rem;
+}
+#exampleModal .half_pg_box .only_content_box .head_part button{
+	border-radius: 25px;
+	float: right;
+	font-size: 0.9rem;	
+	min-height: 3vh;
+	opacity: 0.5;
+	background-color: rgb(26 145 218);
+}
+#exampleModal .half_pg_box .only_content_box .main_input form .both_input{
+	background-color: black;
+	color: light;
+	border-color: rgb(47, 51, 54);;
+}
+#exampleModal .half_pg_box .only_content_box .main_input form .phone_input{
+	margin-top: 30px;
+}
+#exampleModal .half_pg_box .only_content_box .main_input form .phone_input p{
+	margin-top: 30px;
+	color: white;
+}
+#exampleModal .half_pg_box .only_content_box .main_input form .MDY_group .MDY_select{
+	background-color: black;
+	color: light;
+	height: 3.2rem;
+	border-color: rgb(47, 51, 54);
+	border-radius: 6px;
+}
+#exampleModal .half_pg_box .only_content_box .main_input form .MDY_group #inputGroupSelect01{
+	width: 8rem;
+	margin-right: 1rem;
+}
+#exampleModal .half_pg_box .only_content_box .main_input form .MDY_group #inputGroupSelect02{
+	width: 1rem;
+	margin-right: 1rem;
+}

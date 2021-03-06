@@ -1,0 +1,111 @@
+<!DOCTYPE html lang="en">
+<html>
+<head>
+	<title>
+		Login on Twitter/Twitter
+	</title>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+	<link href="SignUp.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	
+</head>
+<body >
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><strong>Sign up</strong></button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog half_pg_box" role="document">
+    <div class="modal-content only_content_box">
+	  <div class="head_part mt-2">
+		<i class="fab fa-twitter text-white"></i>
+        <button type="button" class="btn btn-secondary mr-3" data-dismiss="modal"><strong>Next</strong></button>
+		<!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true">&times;</span> -->
+      </div>	
+      <div class="Mesg_create mt-4 ml-3 mb-2 text-white">
+        <h5 class="modal-title" id="exampleModalLabel"><strong>Create your account</strong></h5>
+        </button>
+      </div>
+      <div class="modal-body main_input mb-4">
+        <form>
+            <div class="form-group name_input mb-3">
+				<input type="text" class="form-control both_input p-4" id="recipient-name" placeholder="Name">
+            </div>
+            <div class="form-group phone_input ">
+				<input type="text" class="form-control both_input p-4" id="phone" placeholder="Phone">
+				<p class="col-form-label"><strong>Date of birth:</strong><br><span class="text-secondary">This will not be shown publicly. Confirm your own age, even if this account is for
+				a business, a pet, or something else.</span></p>
+            </div>
+			<div class="input-group MDY_group mb-5" >
+				<select class="form-control MDY_select" id="inputGroupSelect01">
+					<option value="" disabled selected hidden>Month</option>
+					<option value=""></option>
+				</select>
+				
+				<select class="form-control MDY_select" id="inputGroupSelect02">
+					<option value="" disabled selected hidden>Day</option>
+					<option value=""></option>
+				</select>
+				<select class="form-control MDY_select" id="inputGroupSelect03">
+					<option value="" disabled selected hidden>Year</option>
+					<option value=""></option>
+				</select>
+			</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+	//list for month
+	var month_list=["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+	month_list.forEach(monthLoop);
+	
+	function monthLoop(item, index)
+	{
+		document.getElementById('inputGroupSelect01').innerHTML+=
+		"<option value='"+item+"'>"+item+"</option>"
+	}
+	
+	//list for day
+	var day_list=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+	day_list.forEach(dayLoop);
+	
+	function dayLoop(item, index)
+	{
+		document.getElementById('inputGroupSelect02').innerHTML+=
+		"<option value='"+item+"'>"+item+"</option>"
+	}
+	
+	//list for year
+	var year_list = [];
+	let counter = 1990;
+	while (counter<=2021){
+		counter++;
+		
+		year_list.push(counter);
+		
+	}
+	console.log(year_list);
+	
+	year_list.forEach(yearLoop);
+	
+	function yearLoop(item, index)
+	{
+		document.getElementById('inputGroupSelect03').innerHTML+=
+		"<option value='"+item+"'>"+item+"</option>"
+	}
+	
+</script>
+
+<script src="https://kit.fontawesome.com/1ae2a388f6.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
