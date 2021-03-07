@@ -1,0 +1,54 @@
+#exampleModal .full_box .info_box{
+	border-radius: 15px;
+	background-color: black !important;
+}
+#exampleModal .full_box .info_box .head_part{
+	text-align: center;
+	margin-top: 15px;
+}
+#exampleModal .full_box .info_box .head_part i{
+	font-size: 2rem;	
+}
+#exampleModal .full_box .info_box .mid_part form p{
+	font-size: 1.5rem;
+	margin-top: 18px;
+	margin-left: 30px;
+	color: rgb(217 217 217); 
+}
+#exampleModal .full_box .info_box .mid_part form .txt_password{
+	margin-left: 30px;
+	margin-top: 20px;
+	color: rgb(217 217 217); 
+}
+#exampleModal .full_box .info_box .mid_part form .psw_input{
+	background-color: black;
+	color: light;
+	border-color: rgb(47, 51, 54);
+	margin-top: 10px;
+	padding: 30px;
+	width: 32vw;
+	margin-left: 30px;
+}
+#exampleModal .full_box .info_box .mid_part form span{
+	color: rgb(217 217 217);
+	margin-top: 10px;
+}
+#exampleModal .full_box .info_box .mid_part form .reveal_psw_chckbox{
+	margin-left: 30px;
+	margin-top: 14px;
+}
+#exampleModal .full_box .info_box .mid_part form #emailHelp{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#exampleModal .full_box .info_box .mid_part form button{
+	border-radius: 25px;
+	font-size: 1rem;	
+	min-height: 3vh;
+	margin-top: 40px;
+	margin-left: 45px;
+	margin-bottom: 20vh;
+	padding-left: 12vw;
+	padding-right: 12vw;
+	background-color: rgb(26 145 218);
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html lang="en">
+<html>
+<head>
+	<title>
+		Login on Twitter/Twitter
+	</title>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+	<link href="SignUp_Part_3.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	
+</head>
+<body >
+
+<section>
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+	  Next
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog full_box" role="document">
+		<div class="modal-content info_box">
+		  <div class="head_part">
+			<i class="fab fa-twitter text-white"></i>
+		  </div>
+		  <div class="mid_part">
+			<form>
+			  <div class="form-group">
+				<p><strong>You'll need a password</strong></p>
+				<label for="exampleInputEmail1" class="txt_password">Make sure it's 8 characters or more.</label>
+				<input type="password" name="password" class="form-control psw_input" id="exampleInputpsw" placeholder="Password">
+				<input class="reveal_psw_chckbox" type="checkbox" onclick="PswReveal()">
+				<span>Reveal password</span>
+				<small id="emailHelp" class="form-text text-muted">We'll never share your Personal information with anyone else.</small>
+				<button type="button" class="btn btn-secondary"><strong>Sign up</strong></button>
+			 </div>
+			</form>  
+		  </div>
+		</div>
+	  </div>
+	</div>	
+</section>
+
+<script>
+
+	//for reveal password
+	
+	function PswReveal(){
+	  var x = document.getElementById("exampleInputpsw");
+	  if (x.type === "password") {
+		x.type = "text";
+	  } else {
+		x.type = "password";
+	  }
+	}
+</script>
+
+
+<script src="https://kit.fontawesome.com/1ae2a388f6.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

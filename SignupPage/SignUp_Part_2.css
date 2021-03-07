@@ -1,0 +1,44 @@
+body{
+}
+#exampleModalCenter .full_box .info_box{
+	height: 75vh;
+	width: 100vw;
+	border-radius: 15px;
+	background-color: black !important;
+	
+}
+#exampleModalCenter .full_box .info_box .head_part{
+	text-align: center;
+}
+#exampleModalCenter .full_box .info_box .head_part i{
+	font-size: 2rem;
+	
+}
+#exampleModalCenter .full_box .info_box .head_part button{
+	border-radius: 25px;
+	float: right;
+	font-size: 0.9rem;	
+	min-height: 3vh;
+	opacity: 0.5;
+	background-color: rgb(26 145 218);
+}
+#exampleModalCenter .full_box .info_box .mid_part .customize{
+	font-size: 1.5rem;
+	margin-left: 30px;
+	color: rgb(217 217 217); 
+}
+#exampleModalCenter .full_box .info_box .mid_part .txt_track{
+	font-size: 1.1rem;
+	color: rgb(217 217 217);
+	margin-left: 30px;
+	margin-top: 40px;
+}
+#exampleModalCenter .full_box .info_box .mid_part .check_box_text{
+	font-size: 0.9rem;
+	color: rgb(217 217 217); 
+}
+#exampleModalCenter .full_box .info_box .mid_part .txt_footer{
+	color:rgb(110 118 125);
+	margin-left: 30px;
+	margin-top: 40px;
+}
